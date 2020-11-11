@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulakedouk/burguer-handlebars.git"
+    "url": "git+"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulakedouk/burguer-handlebars/issues"
+    "url": "https:// "
   },
-  "homepage": "https://github.com/paulakedouk/burguer-handlebars#readme",
+  "homepage": "https:// ",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
