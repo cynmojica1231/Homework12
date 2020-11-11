@@ -1,5 +1,7 @@
 # Node Express Handlebars
 
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 
 <img src="public/assets/images/img.jpg" />
@@ -10,11 +12,11 @@ Visit the deployed app at https://ana-burgers.herokuapp.com/, or run it locally 
 
 ## Built With
 
-* Node.js
-* Express.js
-* Handlebars.js
-* MySQL
-* jQuery
-* Javascript
-* CSS
-* HTML
+- Node.js
+- Express.js
+- Handlebars.js
+- MySQL
+- jQuery
+- Javascript
+- CSS
+- HTML
