@@ -6,7 +6,7 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 
 ## Eat da Burger (Screenshot)
 
-![Display Search](Images/eatdaburgerscreenshot.png)
+![Display Search](screenshots/fullsize.png)
 
 ### Getting Started
 
