@@ -1,5 +1,5 @@
 {
-  "name": "Eat-da-burguer",
+  "name": "Eat-da-burger",
   "version": "1.0.0",
   "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/cynmojica1231/Homework12"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https:// "
+    "url": "https://github.com/cynmojica1231/Homework12 "
   },
-  "homepage": "https:// ",
+  "homepage": "https://github.com/cynmojica1231/Homework12#readme ",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
