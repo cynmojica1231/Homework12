@@ -4,7 +4,7 @@
 
 A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 
-<img src="public/assets/images/img.jpg" />
+![DisplayImage] (public/assets/images/eat da burgers screenshot.png)
 
 ## Getting Started
 
