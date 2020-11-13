@@ -6,11 +6,12 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
 
 ## Eat da Burger (Screenshot)
 
-![Display Search](screenshots/fullsize.png)
+![Display Search](screenshots/fullsize.png).
 
-### Getting Started
+### Overview
 
-Visit the deployed app at https:// , or run it locally through node by navigating to the directory in your terminal and entering the command "node server.js".
+A Node, Express, Handlebars, and MySQL burger app that lets users input the names of burgers they'd like to eat... and then devour them!
+Please check out the launched app on Heroku [here]https://shrouded-shelf-14407.herokuapp.com/!
 
 #### Built With
 
