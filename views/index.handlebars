@@ -1,43 +1,43 @@
-<header class="jumbotron">
-    <h1 class="display-3">Eat-da-burger</h1>
-    <p id="currentDay" class="lead"></p>
-</header>
+<head>
+    <title>Code Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet" />
+    <link href="../public/assets/css/style.css" rel="stylesheet" />
+</head>
 
-<div class="logo">
-    <img src="/assets/images/logo.png" alt="Logo" style="width: 400px;">
-</div>
-
-<div class="row">
-    <div class="col-md-12 text-center">
-        <p class="text">Select a burger to eat, make a burger, or create a new one!</p>
-        <form class="form">
-            <div class="form-group">
-                <input type="text" placeholder="Burger name" id="burger-input" name="name">
+<body>
+    <div id="quizContainer" class="container">
+        <div class="title">Eat-da-Burger</div>
+        <div class="logo">
+            <img src="/assets/images/logo.png" alt="Logo" style="width: 300px;">
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p class="text">Select a burger to eat, make a burger, or create a new one!</p>
+                <form class="form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Burger name" id="burger-input" name="name">
+                    </div>
+                    <button id="submit-btn" type="submit">ADD BURGER</button>
+                </form>
             </div>
-            <button id="submit-btn" type="submit">ADD BURGER</button>
-        </form>
+        </div>
+        <div class="col-md-5 eat">
+            <h2>Burgers to eat!</h2>
+            <ul>
+                {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block devour=true}} {{/unless}} {{/each}}
+            </ul>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5 done">
+            <h2>Already eaten!</h2>
+            <ul>
+                {{#each burgers}} {{#if devoured}}
+                <div class="eat-burger">
+                    <span class="label">#{{this.id}}</span>
+                    <span class="label">{{this.burger_name}}</span>
+                </div>
+                {{/if}} {{/each}}
+            </ul>
+        </div>
+        <div class="col-md-1"></div>
     </div>
-</div>
-
-<div class="row">
-
-    <div class="col-md-5 eat">
-        <h2>Burgers to eat!</h2>
-        <ul>
-            {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block devour=true}} {{/unless}} {{/each}}
-        </ul>
-    </div>
-    <div class="col-md-2"></div>
-    <div class="col-md-5 done">
-        <h2>Already eaten!</h2>
-        <ul>
-            {{#each burgers}} {{#if devoured}}
-            <div class="eat-burger">
-                <span class="label">#{{this.id}}</span>
-                <span class="label">{{this.burger_name}}</span>
-            </div>
-            {{/if}} {{/each}}
-        </ul>
-    </div>
-    <div class="col-md-1"></div>
-</div>
