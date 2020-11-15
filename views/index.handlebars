@@ -31,12 +31,12 @@
         <div class="col-md-5 done">
             <h2>Already eaten!</h2>
             <ul>
-                {{#each burgers}} {{#if devoured}}
-                <div class="eat-burger">
+                {{#each burgers}} {{#if devoured}} {{> burgers/burger-block devour=false}} {{/if}} {{/each}}
+                {{!-- <div class="eat-burger">
                     <span class="label">#{{this.id}}</span>
                     <span class="label">{{this.burger_name}}</span>
                 </div>
-                {{/if}} {{/each}}
+                {{/if}} {{/each}} --}}
             </ul>
         </div>
         <div class="col-md-1"></div>
